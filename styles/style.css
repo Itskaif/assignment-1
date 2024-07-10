@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.h1 {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+/* Hero Section **START** */
+
+.hero {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    gap: 30px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 68px;
+}
+
+.hero p {
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.hero-button button {
+    background-color: black;
+    color: white;
+    padding: 21px 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+}
+
+.hero-button button:hover {
+    cursor: pointer;
+}
+
+.hero-button button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section **END** */
+
+/* <!-- Why Web Dev Section **START** --> */
+
+
+.why-web-development {
+    height: 1395px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.web-develop-header {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 800px;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.boxes h3 {
+    font-size: 25px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.boxes button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 130px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 15px;
+    background: white;
+    font-weight: bolder;
+}
+
+.boxes button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 1s;
+}
+
+/* <!-- Why Web Dev Section **END** --> */
+
+/* <!-- Inspire Section **START** --> */
+
+.inspire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.iframes {
+    border-radius: 15px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.iframes iframe {
+    border-radius: 15px;
+}
+
+
+/* <!-- Inspire Section **END** --> */
+
+
+/* <!-- Target Section **START** --> */
+
+.target-section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.target-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box a {
+    color: black;
+    font-weight: bolder;
+
+}
+
+.box a:hover {
+    color: darkgray;
+    transition: 0.5s;
+}
+
+.box1 {
+    background-color: rgba(255, 76, 30, 0.05);
+
+}
+
+.box2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.box3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-header {
+    text-align: center;
+}
+
+/* <!-- Target Section **END** --> */
+
+
+/* <!-- Support Section **START** --> */
+
+.support-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    width: 1140px;
+    gap: 40px;
+    background: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.support-h1 h1 {
+    color: white;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.support-p p {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+.support-inp-field {
+    display: flex;
+    gap: 20px;
+}
+
+.support-input input {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding-left: 20px;
+    outline: none;
+    font-weight: bolder;
+}
+
+.support-btn button {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+    font-weight: bolder;
+}
+
+.support-btn button:hover {
+    cursor: pointer;
+    background: #000;
+    color: white;
+    transition: 0.5s;
+}
+
+/* <!-- Support Section **END** --> */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 50px;
+
+}
+
+/* <!-- Footer Section **START** --> */
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#fb {
+    color: #4267B2;
+}
+
+#twitter {
+    color: white;
+}
+
+#linkedin {
+    color: #0a66c2;
+}
+
+/* <!-- Footer Section **END** --> */
